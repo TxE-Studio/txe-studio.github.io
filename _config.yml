@@ -1,5 +1,5 @@
 ### Site Settings ###
-title               : TxE Studio | Welcome
+title               : TxE Studio
 description         : Welcome to TxE Studio! 
                       Our studio create games with the Unreal Editor and UEFN.
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
