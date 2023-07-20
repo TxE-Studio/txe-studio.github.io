@@ -3,7 +3,7 @@ title               : TxE Studio
 description         : Welcome to TxE Studio! 
                       Our studio create games with the Unreal Editor and UEFN.
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-remote_theme        : DevniteCreative/yD
+remote_theme        : youssefraafatnasry/PortfolYOU
 
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
@@ -16,19 +16,15 @@ plugins:
 ### Navbar Settings ###
 nav_exclude:                                            # The following paths are excluded from navbar
   - pages/tags.html
-  - pages/status.html
   - pages/404.html
   - pages/index.md
   - pages/privacy policy.md
-  - pages/launchersp.md
-  - pages/support/launcherlds.md
-  - pages/support/errorcodes/TGLE-404-LF.md
   - pages/docs.html
 
 
 ### Author Info ###
 author:
-  name              : TFNGames
+  name              : TxE Studio
   image             : https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/HD_transparent_picture.png/1200px-HD_transparent_picture.png
 
 
@@ -40,10 +36,10 @@ permalink: /news/:title
 collections:
   projects:
     output: true
-    permalink: /support/:name
+    permalink: /projects/:name
   docs:
     output: true
-    permalink: /support/app/:name
+    permalink: /docs/:name
 
 
 ### Disqus ###
